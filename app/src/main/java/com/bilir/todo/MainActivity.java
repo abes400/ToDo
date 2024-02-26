@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
         sharedPreferences = getSharedPreferences("list.dat", Context.MODE_PRIVATE);
         HashSet<String> hashSet = (HashSet<String>) sharedPreferences.getStringSet("notes", null);
         if(hashSet != null)
-        items.addAll(hashSet);
+            items.addAll(hashSet);
         adapter.notifyDataSetChanged();
     }
 }
