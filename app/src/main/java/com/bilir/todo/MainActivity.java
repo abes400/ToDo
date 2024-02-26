@@ -101,4 +101,4 @@ public class MainActivity extends AppCompatActivity {
             items.addAll(hashSet);
         adapter.notifyDataSetChanged();
     }
-}
+}//
